@@ -16,12 +16,12 @@ async function run() {
             const downloadPath = await tc.downloadTool(downloadUrl)
             core.info(`Extracting version ${cacheKey}`)
             const extractedPath = await tc.extractTar(downloadPath)
-            core.info(`Caching version ${cacheKey}`);
-            cachedPath = await tc.cacheDir(extractedPath, cacheKey, tag);
+            core.info(`Caching version ${cacheKey}`)
+            cachedPath = await tc.cacheDir(extractedPath, cacheKey, tag)
         }
-        core.addPath(path.join(cachedPath, ...binPath));
+        core.addPath(path.join(cachedPath, ...binPath))
     } catch (error) {
-        core.setFailed(error.message);
+        core.setFailed(error.message)
     }
 }
 
