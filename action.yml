@@ -1,0 +1,6 @@
+name: 'riscv-toolchain'
+description: 'risc-v toolchain'
+author: 'plavelo'
+runs:
+  using: 'node12'
+  main: 'index.js'

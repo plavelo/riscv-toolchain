@@ -1,0 +1,24 @@
+{
+  "name": "riscv-toolchain",
+  "version": "0.1.0",
+  "description": "risc-v toolchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plavelo/riscv-toolchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plavelo/riscv-toolchain/issues"
+  },
+  "homepage": "https://github.com/plavelo/riscv-toolchain#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
