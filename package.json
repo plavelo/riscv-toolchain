@@ -19,6 +19,6 @@
   "homepage": "https://github.com/plavelo/riscv-toolchain#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0"
+    "@actions/tool-cache": "^1.6.1"
   }
 }
